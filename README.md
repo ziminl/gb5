@@ -7,6 +7,13 @@ https://www.apachefriends.org
 
 https://github.com/gnuboard/gnuboard5
 
+
+#win
+: path
+
++ sql root 1234
+
+
 # community to 
 
 in
