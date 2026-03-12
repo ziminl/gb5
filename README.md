@@ -9,9 +9,11 @@ https://github.com/gnuboard/gnuboard5
 
 
 #win
-: path
+: path : 
 
 + sql root 1234
+
+mysql -u root -p
 
 
 # community to 
