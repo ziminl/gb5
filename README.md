@@ -9,7 +9,7 @@ https://github.com/gnuboard/gnuboard5
 
 
 #win
-: path : 
+: path : C:\xampp\mysql\bin
 
 + sql root 1234
 
