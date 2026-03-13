@@ -16,7 +16,7 @@ https://github.com/gnuboard/gnuboard5
 mysql -u root -p
 
 
-# community to 
+# community to shop
 
 in
 
