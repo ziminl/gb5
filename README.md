@@ -25,6 +25,6 @@ theme/테마명/theme.config.php
 define('G5_COMMUNITY_USE', false);
 
 
-# gd 
+# enable gd 
 
 php.ini -> ;extension=gd to extension=gd
