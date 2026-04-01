@@ -36,3 +36,31 @@ define('G5_COMMUNITY_USE', false);
 # enable gd 
 
 php.ini -> ;extension=gd to extension=gd
+
+# hide  "FAQ" "Q&A" "새글" "접속자"
+C:\xampp\htdocs\theme\basic\css\default.css
+```
+/* 상단 FAQ, Q&A, 새글, 접속자 숨기기 추가 */
+#hd_define li a[href*="faq.php"], 
+#hd_qnb li a[href*="faq.php"],
+#hd_define li a[href*="qalist.php"], 
+#hd_qnb li a[href*="qalist.php"],
+#hd_define li a[href*="new.php"], 
+#hd_qnb li a[href*="new.php"],
+#hd_define li a[href*="current_connect.php"],
+#hd_qnb li a[href*="current_connect.php"] {
+    display: none !important;
+}
+
+/* 항목이 사라진 후 남는 여백(테두리나 마진) 처리 */
+#hd_define li:has(a[href*="faq.php"]), 
+#hd_define li:has(a[href*="qalist.php"]),
+#hd_define li:has(a[href*="new.php"]),
+#hd_define li:has(a[href*="current_connect.php"]),
+#hd_qnb li:has(a[href*="faq.php"]), 
+#hd_qnb li:has(a[href*="qalist.php"]),
+#hd_qnb li:has(a[href*="new.php"]),
+#hd_qnb li:has(a[href*="current_connect.php"]) {
+    display: none !important;
+}
+```
