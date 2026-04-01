@@ -64,3 +64,7 @@ C:\xampp\htdocs\theme\basic\css\default.css
     display: none !important;
 }
 ```
+
+# photo crop
+
+
