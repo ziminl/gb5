@@ -68,3 +68,6 @@ C:\xampp\htdocs\theme\basic\css\default.css
 # photo crop
 
 
+
+#pwreset
+mysql -u root -p -e "USE <dbname>; UPDATE g5_member SET mb_password = password('<new_pw>') WHERE mb_id = '<admin_id>';"
